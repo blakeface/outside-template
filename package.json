@@ -1,0 +1,42 @@
+{
+  "name": "outside-template",
+  "version": "1.0.0",
+  "description": "react template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/blakeface/outside-template.git"
+  },
+  "keywords": [
+    "react",
+    "template"
+  ],
+  "author": "Blake Netzeband <blake.netzeband@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeface/outside-template/issues"
+  },
+  "homepage": "https://github.com/blakeface/outside-template#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
