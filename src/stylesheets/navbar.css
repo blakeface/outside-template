@@ -1,0 +1,13 @@
+nav {
+	background-color: black;
+	width: 100vw;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+img {
+	width: 150px;
+}
